@@ -6,7 +6,7 @@ const cat = (fileName) => {
             throw err;
         } else {
             process.stdout.write(file);
-            process.stdout.write('prompt >');
+            process.stdout.write('\nprompt >');
         }
     });
 }
